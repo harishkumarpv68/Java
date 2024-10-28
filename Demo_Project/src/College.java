@@ -1,4 +1,4 @@
-public class Collage
+public class College
 {
     //Default values
     String College_Name = "ABC is default value";
@@ -6,7 +6,7 @@ public class Collage
     int Student_ID = 23112;
     char Section_Name = 'A';
 
-    public Collage()
+    public College()
     {
         System.out.println(College_Name + " is College names");
         System.out.println(Branch_Name + " is Branch names");
@@ -15,7 +15,7 @@ public class Collage
     }
 
     //Custom Details
-    Collage(String Name,String Course,int Id,char section)
+    College(String Name,String Course,int Id,char section)
     {
         College_Name = Name;
         Branch_Name = Course;
@@ -27,11 +27,11 @@ public class Collage
     public static void main(String[] args) {
 
         System.out.println("----------------default Student Details------------------");
-        new Collage();
+        new College();
 
         System.out.println("----------------C1 Student Details------------------");
 
-        Collage c1 = new Collage("ABC2","Testing2",7369,'B');
+        College c1 = new College("ABC2","Testing2",7369,'B');
         System.out.println(c1.College_Name + " is College names");
         System.out.println(c1.Branch_Name + " is Branch names");
         System.out.println(c1.Student_ID + " is Student ID");
@@ -39,7 +39,7 @@ public class Collage
 
         System.out.println("----------------C2 Student Details------------------");
 
-        Collage c2 = new Collage("ABC2","Testing2",7370,'C');
+        College c2 = new College("ABC2","Testing2",7370,'C');
         System.out.println(c2.College_Name + " is College names");
         System.out.println(c2.Branch_Name + " is Branch names");
         System.out.println(c2.Student_ID + " is Student ID");
