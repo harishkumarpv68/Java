@@ -18,7 +18,6 @@ public class Data_types {
     Long f1 = 35L;
 
 
-
 public static void main (String[] args)
 {
     Data_types d = new Data_types();
